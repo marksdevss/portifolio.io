@@ -1,0 +1,105 @@
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+    scrollbar-arrow-color: rgb(9, 91, 126);
+
+}
+
+
+#menu_active{
+    color: rgb(255, 255, 255);
+    text-decoration: overline;
+}
+
+
+
+
+ul{
+    text-align: center;
+    background-color: #1a5da4;
+    border-width: 10;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 2%;
+    transition: 0.5s ease-out;
+}
+
+
+a{
+    text-decoration: none;
+    font-weight: 600;
+    justify-content: space-between;
+    font-family:system-ui;
+    color: rgb(255, 255, 255);
+
+}
+
+a:hover{color: rgb(149, 146, 210); transition: 2s;}
+
+
+
+section{
+    margin-top: 10%;
+    image-orientation: flip;
+    padding-right:10%;
+
+}
+
+#girl{
+max-width:600px;
+max-height:660px;
+float: left;
+border:none;
+padding: 5px;
+margin: 0px 10px 10px 0;
+}
+
+#nomes{
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0%;
+    padding-left: 1%;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    animation: typewriter 3s steps(49) 0s normal  none;
+}
+
+
+
+
+
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 190px;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: hsl(213, 77%, 35%);
+    }
+
+    to {
+        border-right-color: transparent;
+        border-right: 1px ;
+        size: 1px;
+    }
+}
+
+#me{color: #1a5da4; font-weight: 600; text-align: left;}
+
+
+    
